@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3e6ea"/></linearGradient>
+<linearGradient id="etg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2c14e"/><stop offset="1" stop-color="#e07a1f"/></linearGradient>
+<linearGradient id="ets" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2fd6c0"/><stop offset="1" stop-color="#6cb6ff"/></linearGradient>
+<radialGradient id="gl" cx=".5" cy=".42" r=".55"><stop offset="0" stop-color="#f2c14e" stop-opacity=".22"/><stop offset="1" stop-color="#f2c14e" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)" stroke="#cfd2d6" stroke-width="6"/>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#gl)"/>
+<g transform="translate(152 168) scale(6)">
+<path d="M14 46 44 18h52a8 8 0 0 1 8 8v52a8 8 0 0 1-8 8H44L14 58a8 8 0 0 1 0-12z" fill="url(#etg)" stroke="#7a3f00" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="34" cy="52" r="6.5" fill="#1b1a17" stroke="#7a3f00" stroke-width="2.5"/>
+<path d="M50 52h6l4-14 6 28 6-22 5 14 4-6h11" fill="none" stroke="#1b1a17" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M86 98l26-26 6 6-26 26-9 3z" fill="url(#ets)" stroke="#0c4a52" stroke-width="2.2" stroke-linejoin="round"/>
+</g>
+</svg>
