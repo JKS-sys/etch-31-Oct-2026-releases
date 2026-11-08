@@ -2,7 +2,11 @@
 
 ## Unreleased
 
-## Etch 1.0.0 — 08-Nov-2026
+## Etch 1.0.1 — 08-Nov-2026
+- Check for updates: reads the feed (ipconfig.co.network, then GitHub), shows coloured release notes, downloads with a progress bar and a step-by-step log, checks the SHA-256, the signature and that the new Etch is signed by the same identity, then swaps itself and reopens. A quiet daily check can be turned off; any version can be skipped.
+- Etch Pro: plans from the dashboard, sign-in by emailed code, redeem codes, subscriptions (cancel at period end) and Macs on the plan. Licences are Ed25519-signed, bound to this Mac and work offline until they expire. The owner's Mac is Pro by itself. Everything Mp3tag-class stays free; Pro adds the batch tools.
+- About Etch now has tabs: Etch, The creator (photo, experience, education, skills, NewsCraft World Report), Recommended apps (live from the dashboard, each with its Pour command) and Licences.
+- A Pro chip on the toolbar; Etch Pro, About the Creator and Recommended Apps in the menus; 19 new sounds, each with its own drawing; 15 new drawn icons.
 
 - First release of Etch, a small, fast audio tag editor for Macs with Apple silicon.
 - Reads and writes tags in MP3, AAC/M4A/MP4, FLAC, Ogg Vorbis, Opus, Speex, WMA, Monkey’s Audio, Musepack, WavPack, True Audio, WAV, AIFF, DSF, DSDIFF and Matroska/WebM — ID3v1, ID3v2.3/2.4, APEv2, Vorbis comments, MP4, ASF, RIFF INFO; custom fields and multiple values kept.
