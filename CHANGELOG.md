@@ -2,7 +2,8 @@
 
 ## Unreleased
 
-## Etch 1.0.1 — 08-Nov-2026
+## Etch 1.0.2 — 08-Nov-2026
+- Free plan limits: 15 tag source lookups, 5 exports, 3 Check-up fixes, 3 select-all duplicates, 3 statistics copies and 3 Compare copy-alls a day, and up to 8 action groups. Counted by the engine (a reload can't reset them), back to full at local midnight; a warning when one is left, then Etch Pro opens on that feature with today's allowance as coloured meters. Pro, owner and developer Macs have no limits. Editing, saving, renaming, covers, actions, converters, filters and playlists stay unlimited for everyone.
 - Check for updates: reads the feed (ipconfig.co.network, then GitHub), shows coloured release notes, downloads with a progress bar and a step-by-step log, checks the SHA-256, the signature and that the new Etch is signed by the same identity, then swaps itself and reopens. A quiet daily check can be turned off; any version can be skipped.
 - Etch Pro: plans from the dashboard, sign-in by emailed code, redeem codes, subscriptions (cancel at period end) and Macs on the plan. Licences are Ed25519-signed, bound to this Mac and work offline until they expire. The owner's Mac is Pro by itself. Everything Mp3tag-class stays free; Pro adds the batch tools.
 - About Etch now has tabs: Etch, The creator (photo, experience, education, skills, NewsCraft World Report), Recommended apps (live from the dashboard, each with its Pour command) and Licences.
